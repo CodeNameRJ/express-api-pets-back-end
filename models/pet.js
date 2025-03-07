@@ -17,7 +17,7 @@ const petSchema = mongoose.Schema({
 
 //create our model
 
-const Pet = mongoose.model('pet', petSchema) // tell mongoose to create a collection in mongodb and validate that collection’s data using the schema.
+const Pet = mongoose.model('Pet', petSchema) // tell mongoose to create a collection in mongodb and validate that collection’s data using the schema.
 
 
 module.exports = Pet
